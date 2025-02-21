@@ -1,0 +1,124 @@
+/* Ensure full page structure consistency */
+.create-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #007bff;
+  }
+  
+  /* Header & Footer */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .website-name {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .sign-in-button {
+    background-color: white;
+    color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .sign-in-button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Form Container */
+  .form-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .form-container h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  /* Form */
+  form {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    max-width: 650px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Input Styles */
+  label {
+    font-weight: bold;
+    text-align: left;
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+  
+  /* Category & Department Side-by-Side */
+  .category-department {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .category-department div {
+    width: 48%;
+  }
+  
+  /* Textarea Adjustments */
+  textarea {
+    resize: vertical;
+    min-height: 30px;
+  }
+  
+  /* File Input */
+  input[type="file"] {
+    padding: 4px;
+    font-size: 14px;
+  }
+  
+  /* Submit Button */
+  button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  /* Footer */
+  

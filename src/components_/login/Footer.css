@@ -1,0 +1,29 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px; /* Increased padding */
+  background-color: #333;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.contact-info p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #ccc; /* Lighter text for contrast */
+}
+
+.contact-us p {
+  font-size: 19px; /* Increased size by 5 points (14px + 5px = 19px) */
+  font-weight: 900; /* Bolder text */
+  color: #ffffff; /* Pure white for better visibility */
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.2s ease; /* Smooth transition */
+}
+
+.contact-us p:hover {
+  text-decoration: underline;
+  color: #007bff; /* Blue highlight on hover */
+  transform: scale(1.05); /* Slight enlargement effect */
+}

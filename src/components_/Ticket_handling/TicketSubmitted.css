@@ -1,0 +1,51 @@
+.ticket-submitted-container {
+  text-align: center;
+  padding: 50px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: 50px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  color: #28a745;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.home-button, .status-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.home-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.status-button {
+  background-color: #28a745;
+  color: white;
+}
+
+.home-button:hover {
+  background-color: #0056b3;
+}
+
+.status-button:hover {
+  background-color: #218838;
+}

@@ -1,0 +1,108 @@
+/* General Styles */
+body {
+  margin: 0;
+  
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Landing Page Container */
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header Section */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #2a2b2d;
+  color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.website-name {
+  font-size: 36px; /* Increased font size */
+  font-weight: bold;
+  margin: 0;
+  letter-spacing: 1px; /* Added letter spacing for better readability */
+}
+
+.sign-in-button {
+  background-color: white;
+  color: #007bff;
+  border: none;
+  padding: 12px 24px; /* Increased padding */
+  border-radius: 25px; /* More rounded corners */
+  cursor: pointer;
+  font-size: 18px; /* Increased font size */
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover transition */
+}
+
+.sign-in-button:hover {
+  background-color: #f0f0f0;
+  color: #0056b3; /* Darker shade on hover */
+}
+
+/* Main Content Section */
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 60px 20px; /* Increased padding */
+  background-color: #ffffff;
+  margin: 20px;
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.main-content h2 {
+  font-size: 56px; /* Increased font size */
+  margin-bottom: 20px;
+  color: #2a2b2d; /* Darker color for better contrast */
+  font-weight: 700; /* Bold font weight */
+  letter-spacing: 1px; /* Added letter spacing */
+}
+
+.main-content p {
+  font-size: 24px; /* Increased font size */
+  color: #666;
+  max-width: 800px; /* Limit width for better readability */
+  line-height: 1.8; /* Increased line height */
+}
+
+/* Footer Section */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #2a2b2d;
+  color: white;
+  font-size: 16px;
+}
+
+.contact-info p {
+  margin: 5px 0;
+  font-size: 16px; /* Increased font size */
+}
+
+.contact-us p {
+  font-size: 18px; /* Increased font size */
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s ease; /* Smooth hover transition */
+}
+
+.contact-us p:hover {
+  color: #007bff; /* Blue color on hover */
+  text-decoration: underline;
+}
